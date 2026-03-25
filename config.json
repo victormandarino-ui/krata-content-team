@@ -20,6 +20,6 @@
   "notificacoes": {
     "email": "victor.mandarino@kratamkt.com",
     "monday_board_id": "18405548250",
-    "email_script": "~/projetos/krata/content-team/scripts/send_email.py"
+    "email_script": "./scripts/send_email.py"
   }
 }
