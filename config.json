@@ -1,0 +1,25 @@
+{
+  "krata": {
+    "posicionamento": "Agência de automação, IA e tráfego para PMEs brasileiras",
+    "tom_de_voz": "Consultivo, direto, sem jargão corporativo",
+    "temas_prioritarios": ["automação", "IA para negócios", "tráfego pago", "vendas", "produtividade"],
+    "contas_concorrentes": ["estevaosoares", "ohmo.ai", "jp.asv", "leorocha_p", "forno.lab", "matheusfonseca.ia"],
+    "historico_dias": 30
+  },
+  "schedule": {
+    "horario_diario": "07:00",
+    "dias_ativos": ["seg", "ter", "qua", "qui", "sex", "sab"],
+    "domingo": "curadoria_semanal"
+  },
+  "limites": {
+    "pautas_trends_hunter": 20,
+    "pautas_aprovadas_minimo": 5,
+    "tentativas_rebucha": 2,
+    "top_n_diario": 5
+  },
+  "notificacoes": {
+    "email": "victor.mandarino@kratamkt.com",
+    "monday_board_id": "18405548250",
+    "email_script": "~/projetos/krata/content-team/scripts/send_email.py"
+  }
+}
