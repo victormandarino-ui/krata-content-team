@@ -93,13 +93,13 @@ Para cada pauta, crie um payload com esta estrutura:
 ### 2. Execute o script
 
 ```bash
-echo '[PAYLOAD JSON]' | python3 $(git rev-parse --show-toplevel)/scripts/gerar_carrossel.py
+echo '[PAYLOAD JSON]' | python3 ./scripts/gerar_carrossel.py
 ```
 
 O script retorna JSON:
 ```json
 {
-  "pasta": "<repo_root>/output/YYYY-MM-DD/slug/",
+  "pasta": "/Users/victormandarino/projetos/krata/content-team/output/YYYY-MM-DD/slug/",
   "slides": 6,
   "arquivos": ["/caminho/slide_01.png", ...],
   "titulo": "..."
@@ -119,7 +119,7 @@ O script retorna JSON:
   {
     "titulo": "Meta Ads 12% mais caro. Seu ROI sobrevive?",
     "formato": "carrossel",
-    "local_arte": "<repo_root>/output/2026-03-25/meta-ads-roi/",
+    "local_arte": "/Users/victormandarino/projetos/krata/content-team/output/2026-03-25/meta-ads-roi/",
     "arquivos_png": ["slide_01.png", "slide_02.png", "..."],
     "slides": 6
   }
@@ -134,7 +134,7 @@ Para pautas de **notícia, opinião ou análise factual**. Cada slide parece um 
 
 **Visual:** Fundo `#111111`, texto `#F2F2F0` grande (38-44px), barra dourada lateral, footer com logo e handle. Imagem opcional no rodapé do slide (landscape, tratada).
 
-**Script:** `$(git rev-parse --show-toplevel)/scripts/gerar_thread.py`
+**Script:** `./scripts/gerar_thread.py`
 
 **Payload:**
 ```json

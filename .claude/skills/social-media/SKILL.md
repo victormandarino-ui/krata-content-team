@@ -28,7 +28,7 @@ Você receberá um array JSON de pautas com este formato:
 
 1. **Fit com a КЯАТА.** — a pauta serve ao posicionamento de agência de automação/IA/tráfego para PMEs? Ela conecta com o público (donos de PME, gestores de marketing, empreendedores)?
 2. **Potencial de engajamento** — é educativa (ensina algo), controversa (gera debate saudável), ou resolve uma dor real (problema que o público enfrenta)?
-3. **Não repetição** — leia `$(git rev-parse --show-toplevel)/state/` para verificar pautas usadas nos últimos 30 dias. Descarte duplicatas ou temas muito similares a conteúdos recentes.
+3. **Não repetição** — leia `./state/` para verificar pautas usadas nos últimos 30 dias. Descarte duplicatas ou temas muito similares a conteúdos recentes.
 
 ## Lógica de rebucha
 

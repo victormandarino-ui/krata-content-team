@@ -166,7 +166,7 @@ def main():
 
     hoje    = datetime.now().strftime("%Y-%m-%d")
     slug    = payload.get("slug", "carrossel")
-    pasta   = Path(__file__).parent.parent / "output" / hoje / slug
+    pasta   = Path(f"/Users/victormandarino/projetos/krata/content-team/output/{hoje}/{slug}")
     pasta.mkdir(parents=True, exist_ok=True)
     (pasta / "html").mkdir(exist_ok=True)
 

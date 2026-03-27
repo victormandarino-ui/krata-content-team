@@ -1,0 +1,80 @@
+{
+  "data": "2026-03-26",
+  "dia_semana": "quinta-feira",
+  "pautas_encontradas": 20,
+  "pautas_aprovadas": 5,
+  "iteracoes_trends_hunter": 1,
+  "designs_criados": 5,
+  "uploads_drive": 5,
+  "top5": [
+    {
+      "rank": 1,
+      "id": 1,
+      "titulo": "Google liberou criação de vídeo com IA grátis dentro do Google Ads",
+      "formato": "carrossel",
+      "score": 9.5,
+      "dia": "2026-03-26",
+      "pillar": "IA",
+      "monday_id": "11601268103",
+      "drive_url": "https://drive.google.com/drive/folders/1-566JyT5XUgOAqxf1LJ0lOe7XE00GWh7",
+      "monday_url": "https://kratamkt.monday.com/boards/18405548250/pulses/11601268103"
+    },
+    {
+      "rank": 2,
+      "id": 2,
+      "titulo": "Meta mudou a atribuição de cliques — e isso muda TUDO no seu relatório",
+      "formato": "carrossel",
+      "score": 9.0,
+      "dia": "2026-03-27",
+      "pillar": "tráfego",
+      "monday_id": "11601269949",
+      "drive_url": "https://drive.google.com/drive/folders/1VNQHOzVIi2MKV9Fxu6gXFQ5qMFB1IR2w",
+      "monday_url": "https://kratamkt.monday.com/boards/18405548250/pulses/11601269949"
+    },
+    {
+      "rank": 3,
+      "id": 3,
+      "titulo": "PMEs brasileiras economizando R$25 mil/ano com automação de IA",
+      "formato": "reels",
+      "score": 9.0,
+      "dia": "2026-03-27",
+      "pillar": "automação",
+      "monday_id": "11601254660",
+      "drive_url": "https://drive.google.com/drive/folders/1Bwi3A3S3HDb-YP5SeYrf_532NeQWf_YD",
+      "monday_url": "https://kratamkt.monday.com/boards/18405548250/pulses/11601254660"
+    },
+    {
+      "rank": 4,
+      "id": 10,
+      "titulo": "Meta quer automatizar 100% dos anúncios até o fim de 2026",
+      "formato": "carrossel",
+      "score": 9.0,
+      "dia": "2026-03-28",
+      "pillar": "tráfego",
+      "monday_id": "11601254569",
+      "drive_url": "https://drive.google.com/drive/folders/1mCSsMerjsJcBjfV9U2nhxx03w-VKOeCq",
+      "monday_url": "https://kratamkt.monday.com/boards/18405548250/pulses/11601254569"
+    },
+    {
+      "rank": 5,
+      "id": 11,
+      "titulo": "Você responde seu lead em quanto tempo?",
+      "formato": "reels",
+      "score": 8.5,
+      "dia": "2026-03-28",
+      "pillar": "vendas",
+      "monday_id": "11601267775",
+      "drive_url": "https://drive.google.com/drive/folders/1f9yXheSXj3WXUMpJN4geVmywqY5aU6qp",
+      "monday_url": "https://kratamkt.monday.com/boards/18405548250/pulses/11601267775"
+    }
+  ],
+  "revisao_rafa": {
+    "status": "aprovado_com_ajustes",
+    "ajustes_aplicados": [
+      "Assinatura KRATA adicionada em todas",
+      "Dados sem fonte suavizados (pauta 1 e 3)",
+      "Métricas corrigidas (pauta 4)",
+      "Prazo arriscado removido (pauta 5)"
+    ]
+  }
+}

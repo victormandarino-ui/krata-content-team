@@ -51,16 +51,37 @@ Invoca o Head de Conteúdo em MODO 3: compila os TOP conteúdos da semana, envia
 
 ## Arquivos de configuração
 
-- Config: `$(git rev-parse --show-toplevel)/config.json`
-- Estado diário: `$(git rev-parse --show-toplevel)/state/`
-- Histórico: `$(git rev-parse --show-toplevel)/historico/aprovacoes.json`
+- Config: `./config.json`
+- Estado diário: `./state/`
+- Histórico: `./historico/aprovacoes.json`
 
-## Time completo
+## Time completo (9 agentes)
 
 | Agente | Skill | Responsabilidade |
 |--------|-------|-----------------|
-| 🧠 Head de Conteúdo | `head-de-conteudo` | Orquestra, gerencia qualidade, único contato com CEO |
-| 🔍 Trends Hunter | `trends-hunter` | Garimpador de pautas (4 fontes) |
-| 📱 Social Media | `social-media` | Filtro editorial com lógica de rebucha |
-| ✍️ Copywriter | `copywriter` | Redatora de copy completo |
-| 🎨 Designer | `designer` | Criação de artes no Canva |
+| 🔍 Davi | `trend-hunter` | Trend Hunter — garimpador de pautas e tendências (4 fontes) |
+| 📅 Pedro | `content-planner` | Content Planner — monta o calendário editorial a partir das trends |
+| 📱 Ana | `social-media` | Social Media — filtro editorial com lógica de rebucha |
+| ✍️ Joyce | `copywriter` | Copywriter — redatora de copy completo |
+| 🎨 Kauã | `designer` | Designer — criação de artes no Canva |
+| 🔎 Rafa | `revisor` | Revisor — QA de copy e arte antes da aprovação final |
+| 🧠 Yago | `head-de-conteudo` | Head — orquestra o pipeline, gerencia qualidade, único contato com CEO |
+| 💬 Lara | `community-manager` | Community Manager — publica e gerencia interações nas redes |
+| 👔 Victor | — | CEO — aprovação final de conteúdo |
+
+## Pipeline de produção
+
+O fluxo completo de produção segue esta sequência:
+
+```
+Davi (trends) → Pedro (calendar) → Ana (social filter) → Joyce (copy) → Kauã (design) → Rafa (QA) → Yago (final) → Lara (publish)
+```
+
+1. **Davi** garimpa tendências e pautas relevantes das 4 fontes configuradas
+2. **Pedro** recebe as trends e monta o calendário editorial do dia/semana
+3. **Ana** aplica o filtro editorial e a lógica de rebucha sobre as pautas planejadas
+4. **Joyce** redige o copy completo para cada peça aprovada por Ana
+5. **Kauã** cria as artes no Canva seguindo o copy e briefing visual
+6. **Rafa** faz o QA completo (copy + arte) e devolve para correção se necessário
+7. **Yago** faz a aprovação final e encaminha ao CEO quando aplicável
+8. **Lara** publica o conteúdo aprovado e gerencia as interações nas redes

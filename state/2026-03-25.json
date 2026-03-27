@@ -1,0 +1,63 @@
+{
+  "data": "2026-03-25",
+  "pipeline_executado": true,
+  "resumo": {
+    "pautas_encontradas": 17,
+    "pautas_aprovadas": 8,
+    "iteracoes_rebucha": 0,
+    "designs_criados": 8,
+    "slides_totais": 54
+  },
+  "top5": [
+    {
+      "titulo": "R$ 25 mil economizados. Nenhuma linha de código.",
+      "score": 10,
+      "formato": "carrossel",
+      "status": "🎨 Arte pronta",
+      "local_arte": "/Users/victormandarino/projetos/krata/content-team/output/2026-03-25/r25mil-economia-automacao/",
+      "monday_url": "https://monday.com/boards/18405548250"
+    },
+    {
+      "titulo": "DM virou CRM. Vendas fecham sem o vendedor tocar no celular.",
+      "score": 9,
+      "formato": "carrossel",
+      "status": "🎨 Arte pronta",
+      "local_arte": "/Users/victormandarino/projetos/krata/content-team/output/2026-03-25/dm-virou-crm/",
+      "monday_url": "https://monday.com/boards/18405548250"
+    },
+    {
+      "titulo": "Bot que filtra curioso de comprador antes do vendedor aparecer.",
+      "score": 9,
+      "formato": "carrossel",
+      "status": "🎨 Arte pronta",
+      "local_arte": "/Users/victormandarino/projetos/krata/content-team/output/2026-03-25/bot-filtra-curioso-comprador/",
+      "monday_url": "https://monday.com/boards/18405548250"
+    },
+    {
+      "titulo": "n8n cresceu 450% no Brasil. O que ele faz que ninguém explica direito.",
+      "score": 9,
+      "formato": "carrossel",
+      "status": "🎨 Arte pronta",
+      "local_arte": "/Users/victormandarino/projetos/krata/content-team/output/2026-03-25/n8n-450-brasil/",
+      "monday_url": "https://monday.com/boards/18405548250"
+    },
+    {
+      "titulo": "Agentes de IA ajustam preço e disparam anúncio sozinhos. Chegou ao Brasil.",
+      "score": 9,
+      "formato": "carrossel",
+      "status": "🎨 Arte pronta",
+      "local_arte": "/Users/victormandarino/projetos/krata/content-team/output/2026-03-25/agentes-ia-brasil/",
+      "monday_url": "https://monday.com/boards/18405548250"
+    }
+  ],
+  "todas_aprovadas": [
+    {"titulo": "R$ 25 mil economizados. Nenhuma linha de código.", "score": 10, "formato": "carrossel"},
+    {"titulo": "DM virou CRM. Vendas fecham sem o vendedor tocar no celular.", "score": 9, "formato": "carrossel"},
+    {"titulo": "Bot que filtra curioso de comprador antes do vendedor aparecer.", "score": 9, "formato": "carrossel"},
+    {"titulo": "Hiperautomação reduz 40% do tempo operacional. Sua empresa ainda faz isso na mão?", "score": 9, "formato": "carrossel"},
+    {"titulo": "n8n cresceu 450% no Brasil. O que ele faz que ninguém explica direito.", "score": 9, "formato": "carrossel"},
+    {"titulo": "Agentes de IA ajustam preço e disparam anúncio sozinhos. Chegou ao Brasil.", "score": 9, "formato": "carrossel"},
+    {"titulo": "Google Ads ficou mais barato. Meta, mais caro. O que fazer agora?", "score": 8, "formato": "carrossel"},
+    {"titulo": "61% das PMEs já usam IA. Qual grupo é você?", "score": 8, "formato": "carrossel"}
+  ]
+}

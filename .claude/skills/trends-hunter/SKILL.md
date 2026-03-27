@@ -24,7 +24,7 @@ Buscar entre 10 e 20 pautas relevantes para a КЯАТА. hoje. Cada pauta deve 
 1. **Redes sociais** — use Apify para buscar trending topics do Instagram, TikTok e Twitter relacionados a: marketing digital, automação, IA para negócios, tráfego pago, vendas, produtividade
 2. **Threads** — use Apify ou web-scraper para buscar posts virais de criadores, agências e empreendedores brasileiros no Threads
 3. **Notícias e blogs** — use Exa Search e Tavily para buscar artigos e notícias recentes (últimas 48h) sobre: automação com IA, ferramentas de marketing, cases de PMEs, tráfego pago
-4. **Concorrentes** — leia `$(git rev-parse --show-toplevel)/config.json` para obter a lista de `contas_concorrentes` e use firecrawl-scraper para ver os últimos posts dessas contas
+4. **Concorrentes** — leia `./config.json` para obter a lista de `contas_concorrentes` e use firecrawl-scraper para ver os últimos posts dessas contas
 
 ## Comportamento especial: rebucha
 
@@ -55,6 +55,6 @@ Valores permitidos:
 
 - Mínimo 10 pautas, máximo 20
 - Priorize pautas com `relevancia_krata >= 7`
-- Não repita pautas já usadas nos últimos 30 dias (verifique `$(git rev-parse --show-toplevel)/state/` para histórico recente)
+- Não repita pautas já usadas nos últimos 30 dias (verifique `./state/` para histórico recente)
 - Foque em conteúdo educativo, com dado concreto, ou que provoque reflexão
 - Evite pautas muito genéricas (ex: "marketing digital é importante")
