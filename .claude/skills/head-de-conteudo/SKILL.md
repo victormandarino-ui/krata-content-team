@@ -186,7 +186,7 @@ python3 ./scripts/notify_qg.py yago working "Compilando relatório..."
 4. Salve o estado completo do dia em `./state/YYYY-MM-DD.json`
 5. Envie o email de relatório:
    - Monte o HTML do email conforme o formato abaixo
-   - **Em contexto remoto (trigger):** use a ferramenta Gmail MCP (`gmail_create_draft`) para criar e enviar o email
+   - **Em contexto remoto (trigger):** use o n8n MCP para enviar o email: `mcp__n8n-manager__run_webhook` com `workflowName: "krata-email"` e `data: {"to": "[email]", "subject": "[assunto]", "html": "[corpo HTML]"}`. NÃO use curl (bloqueado) nem Gmail MCP (só cria rascunho).
    - **Em contexto local (Mac):** execute via Bash:
    ```bash
    echo '{"to":"[email]","subject":"КЯАТА. | TOP 5 Conteúdos — [Dia], [Data]","html":"[HTML escapado]"}' \

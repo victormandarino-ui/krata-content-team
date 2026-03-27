@@ -19,7 +19,7 @@ As instruções de cada agente estão em `.claude/skills/`:
 
 ## Contexto remoto (trigger)
 - Sem Playwright — o pipeline para após a Etapa 3.5 (copy + email ao CEO)
-- Para emails, use Gmail MCP (`gmail_create_draft`)
+- Para emails, use o n8n MCP: `mcp__n8n-manager__run_webhook` com `workflowName: "krata-email"` e `data: {"to": "...", "subject": "...", "html": "..."}`. NÃO use curl (bloqueado pelo proxy). NÃO use Gmail MCP (só cria rascunho).
 - Salve estado em `./state/YYYY-MM-DD.json`
 - Ao concluir: `git add state/ historico/ && git commit -m "state: YYYY-MM-DD" && git push`
 
